@@ -3,10 +3,10 @@
 Predict recidivism using a deep learning model trained on 48,000+ records from NIJ, COMPAS, and North Carolina. This project implements end-to-end data processing and domain-specific feature engineering in TensorFlow/Keras, achieving a stable ~69% test accuracy.
 
 ## Features
-* **Custom Feature Engineering:** Transforms raw criminal records into behavioral, socio-economic, and severity indicators[cite: 1].
-* **Neural Network:** Multi-layer Perceptron (MLP) built with TensorFlow/Keras using He weight initialization and dropout regularization[cite: 1].
-* **Early Stopping & Optimization:** Employs Adam optimization with early stopping callbacks to prevent overfitting during training[cite: 1].
-* **Balanced Evaluation:** Comprehensive performance assessment using precision, recall, and F1-score across balanced classes[cite: 1].
+* **Custom Feature Engineering:** Transforms raw criminal records into behavioral, socio-economic, and severity indicators.
+* **Neural Network:** Multi-layer Perceptron (MLP) built with TensorFlow/Keras using He weight initialization and dropout regularization.
+* **Early Stopping & Optimization:** Employs Adam optimization with early stopping callbacks to prevent overfitting during training.
+* **Balanced Evaluation:** Comprehensive performance assessment using precision, recall, and F1-score across balanced classes.
 
 ## Dataset & Engineered Features
 The model operates on a merged dataset containing demographic, criminal history, and social stability metrics[cite: 1].
