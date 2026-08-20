@@ -35,14 +35,6 @@ The network is structured as follows:
 * **Output:** Dense (1 unit, Sigmoid activation)[cite: 1]
 * **Loss & Optimizer:** Binary Crossentropy, Adam (`lr=0.0001`)[cite: 1]
 
-## Performance
-Evaluated on a holdout test set of 9,630 records (80/20 train-test split)[cite: 1]:
 
-| Metric | Non-Recidivism (0) | Recidivism (1) | Overall / Avg |
-| :--- | :--- | :--- | :--- |
-| **Precision** | 0.70[cite: 1] | 0.67[cite: 1] | 0.68[cite: 1] |
-| **Recall** | 0.70[cite: 1] | 0.66[cite: 1] | 0.68[cite: 1] |
-| **F1-Score** | 0.70[cite: 1] | 0.67[cite: 1] | 0.68[cite: 1] |
-| **Accuracy** | — | — | **68% – 69%**[cite: 1] |
 
 
