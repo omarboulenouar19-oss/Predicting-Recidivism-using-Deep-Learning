@@ -29,11 +29,11 @@ Felony_Density          = Prior_Felony_Arrests / (Age + 1)
 
 ## Model Architecture
 The network is structured as follows:
-* **Preprocessing:** `StandardScaler` applied to all feature columns[cite: 1].
-* **Layer 1:** Dense (64 units, ReLU activation, HeNormal initialization) + Dropout (0.2)[cite: 1]
-* **Layer 2:** Dense (32 units, ReLU activation, HeNormal initialization) + Dropout (0.2)[cite: 1]
-* **Output:** Dense (1 unit, Sigmoid activation)[cite: 1]
-* **Loss & Optimizer:** Binary Crossentropy, Adam (`lr=0.0001`)[cite: 1]
+Preprocessing: `StandardScaler` applied to all feature columns.
+* **Layer 1:** Dense (64 units, ReLU activation, HeNormal initialization) + Dropout (0.2)
+* **Layer 2:** Dense (32 units, ReLU activation, HeNormal initialization) + Dropout (0.2)
+* **Output:** Dense (1 unit, Sigmoid activation)
+* **Loss & Optimizer:** Binary Crossentropy, Adam (`lr=0.0001`)
 
 
 
