@@ -45,15 +45,4 @@ Evaluated on a holdout test set of 9,630 records (80/20 train-test split)[cite: 
 | **F1-Score** | 0.70[cite: 1] | 0.67[cite: 1] | 0.68[cite: 1] |
 | **Accuracy** | — | — | **68% – 69%**[cite: 1] |
 
-## Quickstart
 
-### Prerequisites
-* Python 3.10+
-* TensorFlow 2.x
-* pandas, scikit-learn, matplotlib
-
-### Setup & Running
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/your-username/Predicting-Recidivism-using-Deep-Learning.git](https://github.com/your-username/Predicting-Recidivism-using-Deep-Learning.git)
-   cd Predicting-Recidivism-using-Deep-Learning
