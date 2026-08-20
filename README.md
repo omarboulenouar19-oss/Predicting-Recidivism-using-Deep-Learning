@@ -9,12 +9,12 @@ Predict recidivism using a deep learning model trained on 48,000+ records from N
 * **Balanced Evaluation:** Comprehensive performance assessment using precision, recall, and F1-score across balanced classes.
 
 ## Dataset & Engineered Features
-The model operates on a merged dataset containing demographic, criminal history, and social stability metrics[cite: 1].
+The model operates on a merged dataset containing demographic, criminal history, and social stability metrics.
 
 ### Primary Raw & Encoded Features
-* `Age`, `Gender_Encoded`, `Education_Level_Encoded`, `Offense_Type_Encoded`[cite: 1]
-* `Prior_Arrests_Count`, `Prior_Felony_Arrests`, `Prior_Misdemeanor_Arrests`, `Prior_Violent_Arrests`[cite: 1]
-* `Sentence_Years`, `Employed`, `Substance_Abuse`[cite: 1]
+* `Age`, `Gender_Encoded`, `Education_Level_Encoded`, `Offense_Type_Encoded`
+* `Prior_Arrests_Count`, `Prior_Felony_Arrests`, `Prior_Misdemeanor_Arrests`, `Prior_Violent_Arrests`
+* `Sentence_Years`, `Employed`, `Substance_Abuse`
 
 ### Engineered Features
 ```python
