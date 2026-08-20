@@ -4,7 +4,7 @@ Predict recidivism using a deep learning model trained on 48,000+ records from N
 
 ## Features
 * **Custom Feature Engineering:** Transforms raw criminal records into behavioral, socio-economic, and severity indicators[cite: 1].
-* **Deep Neural Network:** Multi-layer Perceptron (MLP) built with TensorFlow/Keras using He weight initialization and dropout regularization[cite: 1].
+* ** Neural Network:** Multi-layer Perceptron (MLP) built with TensorFlow/Keras using He weight initialization and dropout regularization[cite: 1].
 * **Early Stopping & Optimization:** Employs Adam optimization with early stopping callbacks to prevent overfitting during training[cite: 1].
 * **Balanced Evaluation:** Comprehensive performance assessment using precision, recall, and F1-score across balanced classes[cite: 1].
 
