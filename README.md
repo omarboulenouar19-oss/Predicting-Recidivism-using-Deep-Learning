@@ -25,7 +25,7 @@ Criminal_Severity_Score = (Prior_Violent_Arrests * 3) + (Prior_Felony_Arrests * 
 Instability_Index       = (1 - Employed) + Substance_Abuse
 Sentence_per_Arrest     = Sentence_Years / (Prior_Arrests_Count + 1)
 Felony_Density          = Prior_Felony_Arrests / (Age + 1)
-```[cite: 1]
+
 
 ## Model Architecture
 The network is structured as follows:
